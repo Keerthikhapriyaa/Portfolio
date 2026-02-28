@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthikhapriyaa M | Portfolio</title>
+
+<!-- Google Fonts for Modern Look -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* GENERAL */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f0f4f8;
+    color:#1f2937;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0b1f3a;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    border-bottom:2px solid #142f5c;
+}
+
+nav h2{
+    color:white;
+    font-size:20px;
+    font-weight:700;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#d1d5db;
+    font-size:15px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#8800ff;
+    transform:scale(1.05);
+}
+
+/* HERO */
+.hero{
+    margin-top:90px;
+    padding:70px 8%;
+    background:linear-gradient(135deg,#0b1f3a,#142f5c);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    border-radius:0 0 40px 40px;
+}
+
+.hero-content{
+    max-width:600px;
+}
+
+.hero-content h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.hero-content h3{
+    font-size:18px;
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.hero-content p{
+    font-size:16px;
+    margin-bottom:20px;
+    color:#e0e7ff;
+}
+
+.download-btn{
+    padding:10px 20px;
+    background:#2563eb;
+    color:#0b1f3a;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.download-btn:hover{
+    background:#2563eb;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #2563eb;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* SECTION */
+.section{
+    padding:60px 8%;
+}
+
+.section h2{
+    font-size:24px;
+    margin-bottom:30px;
+    color:#0b1f3a;
+    border-bottom:3px solid #2563eb;
+    padding-bottom:10px;
+}
+
+/* GRID */
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    flex:1 1 48%;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.card h3{
+    font-size:18px;
+    margin-bottom:12px;
+    color:#0b1f3a;
+}
+
+.skills span{
+    display:inline-block;
+    background:#0b1f3a;
+    color:white;
+    padding:6px 14px;
+    margin:6px 6px 0 0;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:500;
+}
+
+ul{
+    padding-left:18px;
+    font-size:15px;
+    color:#4b5563;
+}
+
+a{
+    color:#0b1f3a;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#0b1f3a;
+    color:#d1d5db;
+    font-size:14px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        border-radius:0 0 20px 20px;
+    }
+
+    .hero img{
+        margin-top:20px;
+    }
+
+    .card{
+        flex:1 1 100%;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <h2>Keerthikhapriyaa M</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="about">
+    <div class="hero-content">
+        <h1>Keerthikhapriyaa M</h1>
+        <h3>B.E Computer Science Engineering | CGPA: 8.3</h3>
+        <p>
+            Dedicated Computer Science Engineering student with strong foundation in programming, database management, and web technologies. Seeking an entry-level Software Developer role to contribute technical expertise and problem-solving skills in a professional environment.
+        </p>
+        <a href="resume kp1 (2).pdf" download class="download-btn">Download Resume</a>
+    </div>
+    <img src="k1.jfif" alt="Profile Image">
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+    <h2>Education</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>B.E – Computer Science Engineering</h3>
+            <p>K.S.Rangasamy College of Technology</p>
+            <p>CGPA: 8.3</p>
+        </div>
+        <div class="card">
+            <h3>Higher Secondary Education</h3>
+            <p>State Board</p>
+            <p>Percentage: 83%</p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card skills">
+        <span>Java</span>
+        <span>Python</span>
+        <span>C</span>
+        <span>MySQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Power BI</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Hospital Management System</h3>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, MySQL</p>
+            <ul>
+                <li>Developed patient registration and appointment modules.</li>
+                <li>Integrated database for secure data storage.</li>
+                <li>Improved record management efficiency.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Online Auction System</h3>
+            <p><strong>Technologies:</strong> Python</p>
+            <ul>
+                <li>Implemented bidding logic using OOP concepts.</li>
+                <li>Created authentication mechanism.</li>
+                <li>Validated real-time bids and processed results.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+    <h2>Experience & Certifications</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Internships</h3>
+            <ul>
+                <li>Frontend Development Intern – Nexgen Nextopia</li>
+                <li>Pragati Internship – Infosys</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Certifications</h3>
+            <ul>
+                <li>NPTEL – English (Elite)</li>
+                <li>NPTEL – Industry 4.0 (Elite + Silver)</li>
+                <li>Infosys Springboard – Java Programming</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section">
+    <h2>Achievements</h2>
+    <div class="card">
+        <ul>
+            <li>Maintained consistent academic performance.</li>
+            <li>Participated in technical workshops and coding events.</li>
+            <li>Completed industry-recognized certifications.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p><strong>Phone:</strong> 9080405319</p>
+        <p><strong>Email:</strong> keerthikhapriyaa.mp@gmail.com</p>
+        <p><strong>Location:</strong> Tamil Nadu, India</p>
+    </div>
+</section>
+
+<footer>
+© 2026 Keerthikhapriyaa M | Professional Portfolio
+</footer>
+
+</body>
+</html>
